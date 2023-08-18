@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* Utility Classes */
+.container{
+    padding-right: 150px;
+    padding-left: 150px; 
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Navbar Section*/
+.navbar{
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    background-color: #fff0e5;
+    z-index: 100;
+    transition: all 0.5s linear ;
+}
+.navbar.scrolled{
+    background-color: #f5fcfe;
+    border-bottom: 1px solid black;
+}
+.img-section img,.search-icon img{
+    height: 27px;
+}
+
+.list-items{
+    position: relative;
+    right : 170px;
+}
+.list-items li:hover{
+    cursor: pointer;
+    color: rgb(78, 159, 231);
+    transition: 0.3s;
+}
+.list-items li{
+    padding: 10px;
+}
+.search-icon img{
+    position: relative;
+    left: 150px;
+    height: 25px;  
+}
+.log-in{
+    padding: 10px 25px;
+}
+
+.log-in:hover{
+    background-color: rgba(250, 228, 212,0.5);
+    color: #3a10e5;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.search-icon img:hover{
+    border-radius: 4px;
+
+
+}
+
+/* Hero Section*/
+.hero-section{
+    padding-top: 1cqmax;
+    background-color: #fff0e5;
+    height: 100vh;
+}
+.hero-img-section{
+    height: 624px;
+    width: 524px;
+}
+.down-img img{
+    margin-top: 150px;
+    height:450px ;
+    width: 530px;
+    z-index: -1;
+}
+.upper-img img{
+    height: 450px;
+    width: 530px;
+    position:absolute;
+    left: 170px;
+    top: 180px;
+}
+
+/* Form Section */
+
+.form-material{
+    height: 450px;
+    padding: 3px;
+}
+.form-section{
+    margin: 100px 0 0 200px;
+    flex-basis: 35%;
+    height: 524px;
+    width:624px;
+}
+.form-text{
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+#email{
+    margin:5px 0 20px;
+}
+#password{
+    margin: 5px 0 20px;
+}
+input{
+    height: 45px;
+    width: 100%;
+}
+button{
+    margin: 15px 0 20px 0 ;
+    color: white;
+    background-color: #3a10e5;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+}
+.p-text-form{
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.form-material h5{
+    font-size: 1rem;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.sites-img{
+    
+    justify-content: space-around;
+}
+.desing{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+.sites-img img:hover{
+    cursor: pointer;
+    background-color: rgba(231, 229, 229,0.6);
+}
+
+
+/* Cources Section*/
+
+.popular-cources{
+    height: 100vh;
+}
