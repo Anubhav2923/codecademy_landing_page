@@ -106,7 +106,7 @@
     padding: 3px;
 }
 .form-section{
-    margin: 100px 0 0 200px;
+    margin: 100px 0 0 100px;
     flex-basis: 35%;
     height: 524px;
     width:624px;
@@ -124,13 +124,12 @@
 input{
     height: 45px;
     width: 100%;
+    padding-left: 10px;
 }
-button{
+.submit-btn{
     margin: 15px 0 20px 0 ;
     color: white;
     background-color: #3a10e5;
-    width: 100%;
-    height: 45px;
     font-size: 16px;
 }
 .p-text-form{
@@ -197,3 +196,67 @@ button{
     cursor: pointer;
 }
 
+
+/* Cards Section*/
+.cards-section{
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card-1{
+    height: 287px;
+    width: 282px;
+    background-color: #fff0e5;
+    color: black;
+    border-radius: 4px;
+}
+.card-1:hover{
+    transform: translate(8px,-8px);
+    transition: 0.3s linear ;
+    box-shadow: -10px 10px rgba(3, 29, 116,0.6);
+    cursor: pointer;
+
+}
+.p-head{
+    text-align: left;
+    padding: 10px;
+    background-color:#eafdc6;
+    color: black;
+    margin-bottom: 10px;
+
+}
+.card-main-text{
+    text-align: left;
+    padding: 10px;
+    height: 69%;
+    border-bottom: 1px dashed;
+}
+.card-main-text h5{
+    font-size: 18px;
+}
+.card-p-text{
+    padding-block: 10px;
+    font-size: 14px;
+    word-spacing: 8px;
+    line-height: 20px
+}
+
+.card-bottom{
+    font-size: 15px;
+    margin-block: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    font-size: 13px;
+    
+}
+.btn{
+    margin: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #ffd300;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
