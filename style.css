@@ -41,10 +41,6 @@
     height: 27px;
 }
 
-.list-items{
-    position: relative;
-    right : 110px;
-}
 .list-items li:hover{
     cursor: pointer;
     color: rgb(78, 159, 231);
@@ -53,28 +49,24 @@
 .list-items li{
     padding: 10px;
 }
-.search-icon img{
-    position: relative;
-    left: 100px;
+.search-icon{
     height: 25px;  
 }
 .log-in{
-    padding: 10px 25px;
+    margin: 40px;
+    padding:  15px 20px;
+    border-radius: 5px;
 }
 
 .log-in:hover{
     background-color: rgba(250, 228, 212,0.5);
     color: #3a10e5;
-    border: 1px solid greenyellow;
     border-radius: 4px;
     transition: 0.5s;
 }
 .search-icon img:hover{
     border-radius: 4px;
-
-
 }
-
 /* Hero Section*/
 .hero-section{
     padding-top: 1cqmax;
@@ -470,5 +462,5 @@ input{
 }
 
 @media only screen and (max-width:700px){
-    
+
 }
