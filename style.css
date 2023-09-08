@@ -462,5 +462,23 @@ input{
 }
 
 @media only screen and (max-width:700px){
+    
+    .navbar{
+        padding-inline: 30px;
+        width: 700px;
+        justify-content: space-between;
 
+    }
+     .list-items{
+    display: none;
+    }
+    .search-icon{
+        display: none;
+    }
+    
+    .menu-icon{
+        margin-right: 70px ;
+    }
+
+    /* Hero Section */
 }
