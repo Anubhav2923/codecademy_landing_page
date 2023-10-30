@@ -1,0 +1,73 @@
+@media only screen and (max-width:600px){
+    
+
+    .navbar{
+        padding-inline: 30px;
+        width: 100%;
+
+    }
+     .list-items{
+    display: none;
+    }
+    .search-icon{
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero-section{
+        height: auto;
+        margin: auto;
+        padding-inline: 10px;
+    }
+    
+    .hero-img-section img{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+      
+    }
+    .down-img img{
+        height:400px ;
+        width: 450px;
+        z-index: -1;
+    }
+
+    .upper-img img{
+        height: 400px;
+        width: 450px;
+        position:absolute;
+        left: 25px;
+        top: 180px;
+
+    }
+    .form-section{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;;
+    }
+
+    /* Popular cources*/
+    .popular-cources{
+        height: auto;
+    }
+    .card-1{
+        margin-bottom: 1.5rem;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 auto;
+    }
+
+    /* Learning Platform*/
+
+    .learn-sec{
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
